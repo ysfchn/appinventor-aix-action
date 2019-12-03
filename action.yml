@@ -1,0 +1,15 @@
+name: 'Build App Inventor Extension'
+description: 'Builds an App Inventor extension from your Java files.'
+inputs:
+  source:  # id of input
+    description: 'The git URL of App Inventor sources.'
+    required: true
+    default: 'https://github.com/mit-cml/appinventor-sources.git'
+outputs:
+  file: # id of output
+    description: 'The AIX extension file name.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.source }}
