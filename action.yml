@@ -1,5 +1,8 @@
 name: 'Build App Inventor Extension'
 description: 'Builds an App Inventor extension from your Java files.'
+branding:
+  icon: 'box'
+  color: 'green'
 inputs:
   source:  # id of input
     description: 'The git URL of App Inventor sources.'
