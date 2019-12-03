@@ -14,7 +14,11 @@ cp -r src/** appinventor-sources/appinventor/components/src
 
 cd appinventor-sources/appinventor/
 ant extensions
+
 cd ../..
 
+cd appinventor-sources/appinventor/components/build/extensions
 file=$(dir)
 echo ::set-output name=file::$file
+
+cd ../../../../..
