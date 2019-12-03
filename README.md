@@ -1,6 +1,6 @@
 # App Inventor AIX Build Action
 
-This action builds AIX extension for MIT App Inventor by compiling your .java source file, with this action you can also specify  
+This action builds AIX extension for MIT App Inventor by compiling your .java source file, with this action you can also specify App Inventor repository link. Inspired from [pavi2410/AIX-Action](https://github.com/pavi2410/AIX-Action)
 ## Inputs
 
 ### `source`
