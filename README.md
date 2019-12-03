@@ -15,10 +15,6 @@ The git URL of App Inventor sources repository to compile your extension. Defaul
 
 The output AIX file name. So you can use it directly for creating release actions.
 
-## Example usage
+## How to use it?
 
-```yaml
-uses: ysfchn/appinventor-aix-action@master
-with:
-  source: 'https://github.com/mit-cml/appinventor-sources.git'
-```
+You can check [Wiki](https://github.com/ysfchn/appinventor-aix-action/wiki) for detailed usage.
