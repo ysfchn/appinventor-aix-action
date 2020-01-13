@@ -13,6 +13,7 @@ git submodule update --init
 cp -r src/** appinventor-sources/appinventor/components/src
 
 cd appinventor-sources/appinventor/
+ant clean
 ant extensions
 
 cd ../..
