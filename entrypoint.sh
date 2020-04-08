@@ -8,6 +8,7 @@ apt-get update && apt-get install -y \
   openjdk-8-jdk
 
 git clone $1
+git checkout $2
 git submodule update --init
 
 cp -r src/** appinventor-sources/appinventor/components/src
