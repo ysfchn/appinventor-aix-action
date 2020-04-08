@@ -5,9 +5,13 @@ branding:
   color: 'green'
 inputs:
   source:  # id of input
-    description: 'The git URL of App Inventor sources.'
+    description: 'The git URL of your App Inventor sources.'
     required: true
     default: 'https://github.com/mit-cml/appinventor-sources.git'
+  branch:
+    description: 'A valid branch name of your App Inventor source repository which extensions will build from.'
+    required: false
+    default: 'master'
 outputs:
   file: # id of output
     description: 'The AIX extension file name.'
@@ -16,3 +20,4 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.source }}
+    - ${{ inputs.branch }}

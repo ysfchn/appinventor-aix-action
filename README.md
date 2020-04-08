@@ -9,6 +9,10 @@ This action builds AIX extension for MIT App Inventor by compiling your .java so
 
 The git URL of App Inventor sources repository to compile your extension. Default is `https://github.com/mit-cml/appinventor-sources.git`.
 
+### `branch`
+
+A valid branch name of your App Inventor source repository which extensions will build from. Default is `master`.
+
 ## Outputs
 
 ### `file`
